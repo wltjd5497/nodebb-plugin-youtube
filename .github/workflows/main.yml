@@ -1,4 +1,4 @@
-name: NodeBB Youtube Plugin
+name: NodeBB Youtube Plugin CI/CD
 
 on:
   push:
