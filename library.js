@@ -5,7 +5,9 @@
 		embed = '<div class="video-container"><iframe class="youtube-plugin" src="https://www.youtube.com/embed/$1?wmode=opaque" allowfullscreen></iframe></div>';
 
 	// modified from http://stackoverflow.com/questions/7168987/
-	var 	regularUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com)\/(?:watch\?v=([^&]+))(?:&[^"]+)?">[^<]+<\/a>/g;
+	var 	regularUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com)\/(?:watch\?v=([^&]+))">.+<\/a>/g;
+	//var	regularUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com)\/(?:watch\?v=)(.+)">.+<\/a>/g;
+
 	var	embedUrl = /<a href="(?:https?:\/\/)?(?:www\.)youtube.com\/embed\/([\w\-_]+)">.+<\/a>/;
 	//var	shortUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:youtu\.be)\/(.+)">.+<\/a>/g;
 
