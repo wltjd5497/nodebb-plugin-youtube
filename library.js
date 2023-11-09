@@ -2,7 +2,7 @@
 	"use strict";
 	// responsive format found at http://avexdesigns.com/responsive-youtube-embed/
 	var Youtube = {},
-		embed = '<div class="video-container"><iframe class="youtube-plugin" src="htttps://www.youtube.com/embed/$1"></iframe></div>';
+		embed = '<div class="video-container"><iframe class="youtube-plugin" src="https://www.youtube.com/embed/$1"></iframe></div>';
 
 	// modified from http://stackoverflow.com/questions/7168987/
 	var	regularUrl = /<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com)\/(?:watch\?v=)(.+)">.+<\/a>/g;
