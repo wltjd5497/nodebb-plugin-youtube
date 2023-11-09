@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-youtube"
+    "url": "https://github.com/stelladream/nodebb-plugin-youtube"
   },
   "keywords": [
     "nodebb",
@@ -23,7 +23,7 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-youtube/issues"
+    "url": "https://github.com/stelladream/nodebb-plugin-youtube/issues"
   },
   "nbbpm": {
     "compatibility": "^0.6.0"
