@@ -2,7 +2,7 @@ name: NodeBB Youtube Plugin CI/CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
