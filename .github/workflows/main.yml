@@ -19,4 +19,3 @@ jobs:
         cd /home/ubuntu/nodebb
         ./nodebb stop
          npm install nodebb-plugin-youtube
-        ./nodebb start
